@@ -1,0 +1,28 @@
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Style using DOM</title>
+        <style>
+            .applystyle{
+                border: 3px solid maroon;
+                background-color: chocolate;
+            }
+            .appplyborder{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="text" id="t1"><br><br>
+        <input type="text" id="t2" class="appplyborder"><br><br>
+        <input type="text" id="t3" class="="appplyborder>
+        <script>
+            documemt.getElementById("t1").style.backgroundColor="pink";
+            documemt.getElementById("t2").classList.add("applystyle");
+            documemt.getElementById("t3").classList.remove("applyboede");
+        </script>
+
+    </body>
+</html>

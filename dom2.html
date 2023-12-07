@@ -1,0 +1,18 @@
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Events using DOM(addEventListener)</title>
+    </head>
+    <body>
+        <button id="b1">Click me now!</button>
+        <script>
+            documemt.getElementById("b1").addEventListener("click",changecolor);
+            function changecolor(){
+                documemt.getElementById("b1").style.backgroundColor="pink";
+            }
+            documemt.getElementById("b1").removeEventListener("click",changecolor);
+        </script>
+    </body>
+</html>
